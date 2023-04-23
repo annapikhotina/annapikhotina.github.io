@@ -1,19 +1,12 @@
-.header {
-	
+body {
+	background-image: url("./background.jpg");
 }
 
-h1 {
-	color: green;
+h5 {
+	margin-top: 3px;
 	text-align: center;
 }
 
-h3 {
-	text-align: center;
-}
-
-#my_activities {
-	font-weight: bold;
-}
 
 .avatar {
 	text-align: center;
@@ -21,4 +14,20 @@ h3 {
 
 .avatar img {
 	border-radius: 100%;
+}
+
+.card {
+	margin: 10px 0;
+}
+
+.bio-column {
+	background-image: url("./background-1.jpg");
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.details-column {
+	background-image: url("./background-2.jpg");
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
